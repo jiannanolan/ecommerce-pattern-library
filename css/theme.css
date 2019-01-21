@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #3c3c3c;
+  --color-primary-light: #727272;
+  --color-secondary: #cc6c5a;
+  --color-accent: #Cbb79c;
+  --color-neutral-beige: #ede7e7;
+
+  --font-primary: "Nunito Sans", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}

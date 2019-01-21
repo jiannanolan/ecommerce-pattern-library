@@ -1,0 +1,5 @@
+permalink: pretty
+theme: jekyll_patternbot
+
+patternbot:
+  font_url: "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,600,700,800"

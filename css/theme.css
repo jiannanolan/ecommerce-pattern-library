@@ -11,3 +11,73 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-beige);
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-beige);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-beige);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  color: var(--color-neutral-beige);
+}
+
+a {
+  font-family: var(--font-primary);
+  color: fff;
+  font-weight: bold;
+}
+
+ul {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+ol {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+dl {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+cite {
+  color: var(--color-primary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+blockquote {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+em {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+
+strong {
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+<abbr> {
+  color: var(--color-primary);
+  font-weight: normal;
+  font-style: italic;
+}

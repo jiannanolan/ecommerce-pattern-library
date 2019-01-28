@@ -5,6 +5,11 @@ patternbot:
   description:
     A local e-commerce website focused on selling trendy eyewear and lens repair services.
   font_url: "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,600,700,800"
+  colors:
+    accent: "--color-primary-dark"
+    patterns:
+      brand-logos: "--color-primary-light"
+
   rationales:
     typefaces.primary:
       Nunito Sans was selected to to it's classic and clean look. The san-serif font gives the site a modern feeling which is appropriate as the overall tone for an e-commerce site concerned with fashion and aesthetics. It is also very readable at all sizes and provides excellent accessibility.

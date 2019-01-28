@@ -9,7 +9,7 @@ patternbot:
     background: "--color-secondary"
     accent: "--color-primary-dark"
     patterns:
-      brand-logos: "--color-primary-light"
+      brand-logos: "--color-neutral"
 
   rationales:
     typefaces.primary:

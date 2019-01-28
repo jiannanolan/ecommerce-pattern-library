@@ -6,10 +6,10 @@ patternbot:
     A local e-commerce website focused on selling trendy eyewear and lens repair services.
   font_url: "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,600,700,800"
 colors.primary:
-  The primary color is a dark colour. This color should be used as text on lighter backgrounds, body text, backgrounds for cards, banner and footer.
+  The primary color is a dark colour representing an edgy and classic feel. It is neutral and gives the site a sophisticated and timeless feeling. This color should be used as text on lighter backgrounds, body text, backgrounds for cards, banner and footer.
 colors.secondary:
-  This colour is a fun colour used within the brand logo. This color should be used on the navigation background, card backgrounds and buttons colours.
+  This colour is a fun and bright colour used within the brand logo. This color should be used on the navigation background, card backgrounds and buttons colours.
 colors.accent:
-  This colour is a muted gold color. This color should be used for card backgrounds.
+  This colour is a muted gold color representing fashion and used to add a contemporary flare. This color should be used for card backgrounds.
 colors.neutral:
   This colour is a beige colour which represents softness and femininity. This color should be for card backgrounds.

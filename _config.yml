@@ -8,12 +8,11 @@ patternbot:
   rationales:
     typefaces.primary:
       Nunito Sans was selected to to it's classic and clean look. The san-serif font gives the site a modern feeling which is appropriate as the overall tone for an e-commerce site concerned with fashion and aesthetics. It is also very readable at all sizes and provides excellent accessibility.
-
-  colors.primary:
-    The primary color is a dark colour representing an edgy and classic feel. It is neutral and gives the site a sophisticated and timeless feeling. This color should be used as text on lighter backgrounds, body text, backgrounds for cards, banner and footer.
-  colors.secondary:
-    This colour is a fun and bright colour used within the brand logo. This color should be used on the navigation background, card backgrounds and buttons colours.
-  colors.accent:
-    This colour is a muted gold color representing fashion and used to add a contemporary flare. This color should be used for card backgrounds.
-  colors.neutral:
-    This colour is a beige colour which represents softness and femininity. This color should be for card backgrounds.
+    colors.primary:
+      The primary color is a dark colour representing an edgy and classic feel. It is neutral and gives the site a sophisticated and timeless feeling. This color should be used as text on lighter backgrounds, body text, backgrounds for cards, banner and footer.
+    colors.secondary:
+      This colour is a fun and bright colour used within the brand logo. This color should be used on the navigation background, card backgrounds and buttons colours.
+    colors.accent:
+      This colour is a muted gold color representing fashion and used to add a contemporary flare. This color should be used for card backgrounds.
+    colors.neutral:
+      This colour is a beige colour which represents softness and femininity. This color should be for card backgrounds.

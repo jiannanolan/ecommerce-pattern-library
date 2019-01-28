@@ -6,7 +6,7 @@ patternbot:
     A local e-commerce website focused on selling trendy eyewear and lens repair services.
   font_url: "https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,400i,600,700,800"
   colors:
-    background: ""--color.secondary"
+    background: ""--color-primary-light"
     accent: "--color-primary-dark"
     patterns:
       brand-logos: "--color-primary-light"

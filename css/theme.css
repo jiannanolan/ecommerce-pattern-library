@@ -1,12 +1,39 @@
 :root {
   --color-primary: #3c3c3c;
+  --color-primary-dark: #212121;
   --color-primary-light: #727272;
   --color-secondary: #cc6c5a;
+  --color-secondary-dark: #b94c38;
   --color-accent: #Cbb79c;
   --color-neutral-beige: #ede7e7;
 
   --font-primary: "Nunito Sans", sans-serif;
 }
+/* @utility Apply the primary typeface */
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+/* @utility Apply a dark background colour to an element */
+.section-dark {
+  color: var(--color-primary);
+}
+
+/* @utility Apply the brand background colour to an element */
+.section-red {
+  color: var(--color-secondary);
+}
+
+/* @utility Apply the neutral background colour to an element */
+.section-neutral {
+  color: var(--color-neutral);
+}
+
+/* @utility Apply the accent background colour to an element */
+.section-accent {
+  color: var(--color-accent);
+}
+
 
 html {
   font-family: var(--font-primary);
@@ -14,13 +41,13 @@ html {
 
 h1 {
   font-family: var(--font-primary);
-  color: var(--color-neutral-beige);
+  color: #fff;
   font-weight: bold;
 }
 
 h2 {
   font-family: var(--font-primary);
-  color: var(--color-neutral-beige);
+  color: var(--color-primary);
 }
 
 h3 {

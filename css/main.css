@@ -6,3 +6,11 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+html {
+  font-family: sans-serif;
+  }
+
+.flag-optional {
+  color: var(--color-secondary);
+}

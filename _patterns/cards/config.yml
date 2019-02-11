@@ -1,0 +1,18 @@
+title: "Cards"
+description:
+  Cards are used to separate information in a logical way. They should be used to contain content and images pertaining to a single action or subject.
+
+patterns:
+  product:
+    title: "Product Card"
+    description:
+      This card is used to showcase product and should be on a page which features product.
+    width: "12em"
+  menu:
+    title: "Menu Card"
+    description:
+      This card is used as a hover component on the main navigation under the glasses tab.
+  illustration-card:
+    title: "Illustion Card"
+    description:
+      This card is used as a call to action highlighting illustrations found in a smaller grid.

@@ -14,6 +14,10 @@
   font-family: var(--font-primary);
 }
 
+.font-neutral-beige {
+  color: var(--color-neutral-beige);
+}
+
 /* @utility Apply a dark background colour to an element */
 .section-dark {
   color: var(--color-primary);
@@ -48,6 +52,7 @@ h1 {
 h2 {
   font-family: var(--font-primary);
   color: var(--color-primary);
+  text-align: center;
 }
 
 h3 {
@@ -58,12 +63,21 @@ h3 {
 h4 {
   font-family: var(--font-primary);
   color: var(--color-neutral-beige);
+  border: 3px solid: var(--color-neutral-beige);
 }
 
 a {
   font-family: var(--font-primary);
-  color: fff;
+  color: var(--color-primary);
   font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: var(--font-secondary);
+  color: var(--color-secondary);
+  font-weight: bold;
+  text-decoration: none;
 }
 
 ul {
@@ -74,6 +88,16 @@ ul {
 ol {
   color: var(--color-primary);
   font-weight: normal;
+}
+
+dd {
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+dt {
+  color: var(--color-primary);
+  font-weight: bold;
 }
 
 dl {
@@ -97,7 +121,6 @@ em {
   color: var(--color-primary);
 }
 
-
 strong {
   font-weight: bold;
   color: var(--color-primary);
@@ -106,5 +129,16 @@ strong {
 <abbr> {
   color: var(--color-primary);
   font-weight: normal;
+  font-style: italic;
+}
+
+mark {
+  color: #fff;
+  background-color: var(--color-secondary);
+  font-weight: normal;
+  font-style: italic;
+}
+
+q {
   font-style: italic;
 }

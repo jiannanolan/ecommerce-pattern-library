@@ -1,0 +1,28 @@
+.product-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+}
+
+.price {
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.menu-card {
+  background:
+    url("../images/photography/women-red.jpg") bottom center;
+}
+
+.menu-content {
+  vertical-align: middle;
+}
+
+.illustration-card {
+  background-color: var(--color-primary);
+}
+
+.influencer-card {
+  background:
+    url("../images/photography/instagram-model-1.jpg") bottom center;
+  background-size: cover;
+}

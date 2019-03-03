@@ -1,0 +1,32 @@
+title: "Forms"
+description:
+  Forms are an interactive element and are used when users need to input information. Users can input content into appropriate fields depending on the type and scope of information needed to be recorded.
+patterns:
+  email-input:
+    title: "Email Input"
+    description:
+      This form input is used to enter an email. The input value ensures that a valid email is inputed.
+  checkbox:
+    title: "Checkbox"
+    description:
+      This form is used as a checkbox to indicate an affirmative or negative choice. This type of form will be used when selecting type of eyeglasses and additional eyeglass features.
+  drop-down:
+    title: "Drop Down List"
+    description:
+      This simple drop down list allows the user to select one option from a selection. This type of form will be used in selecting prescription information.
+  text-inputs:
+    title: "Basic Input"
+    description:
+      This text input will be used to collect basic user information such as personal information, i.e. User's name.
+  fieldset:
+    title: "Fieldset"
+    description:
+      This fieldset tag is used to group related elements in a form. Fieldsets of this site include; Vision, Prescription, Features, Payment, Personal Information and Payment Method.
+  expiry-date:
+    title: "Expiry Date"
+    description:
+      This form is used to insert an expiry date for a payment card. Using this date type, users are easily able to select the date through a calendar feature.
+  text-area:
+    title: "Text Area"
+    description:
+      This form is used to input larger content which it multi-line in length. This type of form is typically used for user feedback, comments and inquiry purposes.

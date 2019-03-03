@@ -11,14 +11,51 @@
 .menu-card {
   background:
     url("../images/photography/women-red.jpg") bottom center;
+  min-height: 30em;
 }
 
 .menu-content {
   vertical-align: middle;
 }
 
-.illustration-card {
+.illustration-card-shop {
+  background-color: var(--color-accent);
+}
+
+.illustration-card-shop h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.illustration-card-shop p {
+  color: #fff;
+}
+
+.illustration-card-fab  {
   background-color: var(--color-primary);
+}
+
+.illustration-card-fab h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.illustration-card-fab p {
+  color: #fff;
+}
+
+.illustration-card-oldies  {
+  background-color: var(--color-neutral-beige);
+}
+
+.illustration-card-oldies h3 {
+  text-transform: uppercase;
+  color: var(--color-secondary);
+}
+
+.illustration-card-oldies p {
+  color: #fff;
+  color: var(--color-secondary)
 }
 
 .influencer-card {

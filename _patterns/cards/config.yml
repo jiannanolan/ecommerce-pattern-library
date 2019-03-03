@@ -12,7 +12,11 @@ patterns:
     title: "Menu Card"
     description:
       This card is used as a hover component on the main navigation under the glasses tab.
-  illustration-card:
-    title: "Illustion Card"
+  illustration-card-shop:
+    title: "Illustration Card: Shop"
+    description:
+      This card is used as a call to action highlighting illustrations found in a smaller grid.
+  illustration-card-fab:
+    title: "Illustration Card: Fab"
     description:
       This card is used as a call to action highlighting illustrations found in a smaller grid.

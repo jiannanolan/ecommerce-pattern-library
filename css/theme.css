@@ -38,6 +38,13 @@
   color: var(--color-accent);
 }
 
+.icon-label {
+  color: #fff;
+}
+
+.icon-label:hover {
+  color: var(--color-secondary);
+}
 
 html {
   font-family: var(--font-primary);
@@ -96,8 +103,7 @@ dd {
 }
 
 dt {
-  color: var(--color-primary);
-  font-weight: bold;
+  color: #fff;
 }
 
 dl {

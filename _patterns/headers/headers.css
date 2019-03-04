@@ -1,0 +1,15 @@
+header {
+  background-color: var(--color-secondary);
+}
+
+nav li {
+  color: #fff;
+}
+
+li a {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}

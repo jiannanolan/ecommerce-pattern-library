@@ -20,3 +20,7 @@ patterns:
     title: "Illustration Card: Fab"
     description:
       This card is used as a call to action highlighting illustrations found in a smaller grid.
+  illustration-card-oldies:
+    title: "Illustration Card: Oldies"
+    description:
+      This card is used as a call to action highlighting illustrations found in a smaller grid.

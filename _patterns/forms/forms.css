@@ -27,3 +27,13 @@
 .is-validated:invalid + label + .error-message {
   display: block;
 }
+
+.wrapper {
+  position: relative;
+ }
+
+.search-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+ }

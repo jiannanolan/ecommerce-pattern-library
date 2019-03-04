@@ -9,6 +9,7 @@ patternbot:
     accent: "--color-primary-dark"
     patterns:
       brand.logos: "--color-secondary"
+      icons.icons: "--color-primary"
 
   rationales:
     typefaces.primary:

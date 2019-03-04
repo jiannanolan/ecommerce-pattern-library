@@ -1,0 +1,8 @@
+footer {
+  background-color: var(--color-primary-light);
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}

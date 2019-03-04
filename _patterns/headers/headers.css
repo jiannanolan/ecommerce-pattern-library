@@ -1,4 +1,4 @@
-header {
+.navigation {
   background-color: var(--color-secondary);
 }
 
@@ -12,4 +12,9 @@ li a {
 
 a {
   color: #fff;
+}
+
+a:hover {
+  background-color: #fff;
+  padding: .5em;
 }

@@ -6,3 +6,7 @@ footer {
 li {
   list-style-type: none;
 }
+
+footer a:hover{
+  color: var(--color-accent);
+}

@@ -14,7 +14,8 @@ a {
   color: #fff;
 }
 
-a:hover {
+.navigation a:hover {
   background-color: #fff;
-  padding: .5em;
+  color: var(--color-secondary);
+  padding: .3em;
 }

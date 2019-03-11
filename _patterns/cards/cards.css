@@ -14,6 +14,16 @@
   min-height: 30em;
 }
 
+.product-detail {
+  background:
+    url("../images/photography/floral.png") bottom center;
+  min-height: 30em;
+}
+
+.product-card-content {
+  border: 2px solid var(--color-primary-light);
+}
+
 .menu-content {
   vertical-align: middle;
 }
@@ -54,12 +64,52 @@
 }
 
 .illustration-card-oldies p {
-  color: #fff;
-  color: var(--color-secondary)
+  color: var(--color-secondary);
 }
 
 .influencer-card {
   background:
     url("../images/photography/instagram-model-1.jpg") bottom center;
   background-size: cover;
+}
+
+.product-detail-content {
+  background-color: #fff;
+}
+
+.product-detail-title {
+  color: var(--color-primary);
+}
+
+.price {
+  text-align: left;
+  font-weight: 100;
+}
+
+.dot-1 {
+  height: 30px;
+  width: 30px;
+  background-color: #c6c1a5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-2 {
+  height: 30px;
+  width: 30px;
+  background-color: #d6d6d6;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.information-card {
+  border: 3px solid var(--color-primary-light);
+}
+
+.details {
+  color: var(--color-primary);
+}
+
+.detail-bullets li {
+  list-style: circle;
 }

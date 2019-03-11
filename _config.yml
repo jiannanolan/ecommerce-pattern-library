@@ -10,6 +10,9 @@ patternbot:
     patterns:
       brand.logos: "--color-secondary"
       icons.icons: "--color-primary"
+  layouts:
+    default:
+      The default layout should be used for almost every page, it includes the website's primary header and footer.
 
   rationales:
     typefaces.primary:

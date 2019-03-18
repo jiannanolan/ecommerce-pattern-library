@@ -65,12 +65,6 @@
   color: var(--color-secondary);
 }
 
-.influencer-card {
-  background:
-    url("../images/photography/instagram-model-1.jpg") bottom center;
-  background-size: cover;
-}
-
 .product-detail-content {
   background-color: #fff;
 }

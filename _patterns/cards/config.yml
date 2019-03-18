@@ -27,7 +27,7 @@ patterns:
     description:
       This card is used as a call to action highlighting illustrations found in a smaller grid.
   product-detail:
-    title: "Product Card"
+    title: "Product Detail Card"
     description:
       This card is used showcase a product.
   information-card:

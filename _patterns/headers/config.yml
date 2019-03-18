@@ -1,0 +1,9 @@
+title: "Headers"
+description:
+  Headers are used to contain menus which help the customer navigate through the site.
+
+patterns:
+  main-nav:
+    title: "Main Navigation"
+    description:
+      This card is used as the site's primary navigation.

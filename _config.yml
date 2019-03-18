@@ -25,3 +25,13 @@ patternbot:
       This colour is a muted gold color representing fashion and used to add a contemporary flare. This color should be used for card backgrounds.
     colors.neutral:
       This colour is a beige colour which represents softness and femininity. This color should be for card backgrounds.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

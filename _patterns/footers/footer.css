@@ -3,6 +3,10 @@ footer {
   color: #fff;
 }
 
+.footer a {
+  color: #fff;
+}
+
 li {
   list-style-type: none;
 }

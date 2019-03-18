@@ -8,8 +8,37 @@ patterns:
     description:
       Default to using the basic button it should always be used in front of a light backgrounds.
     width: "12em"
+    fields:
+    - name: text
+      type: string
+      example: "Buy Now"
+    - name: url
+      type: url
+      example: "/banner-1/"
+
   ghost:
     title: "Ghost"
     description:
       The ghost button is specificially for banners where it will be placed in front of a busy image.
     background: "--color-primary-light"
+    fields:
+    - name: text
+      type: string
+      example: "View collection"
+    - name: url
+      type: url
+      example: "/banner-1/"
+
+  secondary:
+    title: "Secondary"
+    description:
+      Button without border, used for cards or spaces with less real estate.
+    background: "--color-primary-light"
+    width: "12em"
+    fields:
+    - name: text
+      type: string
+      example: "Buy Now"
+    - name: url
+      type: url
+      example: "/banner-1/"

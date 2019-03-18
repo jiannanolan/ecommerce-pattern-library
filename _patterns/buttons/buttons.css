@@ -23,3 +23,19 @@
   border: 2px solid var(--color-accent);
   padding: 10px;
 }
+
+.btn-secondary {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: none;
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  color: var(--color-secondary);
+  border: none;
+  padding: none;
+  font-weight: 600;
+}

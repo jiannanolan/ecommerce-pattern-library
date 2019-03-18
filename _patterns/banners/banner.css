@@ -1,0 +1,17 @@
+.banner {
+  background:
+    url("../images/photography/banner-01.jpg") center;
+  min-height: 20em;
+}
+
+.banner p {
+  color: #fff;
+}
+
+.banner h3 {
+  color: #fff;
+}
+
+em {
+  color: var(--color-secondary);
+}

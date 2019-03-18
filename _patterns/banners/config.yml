@@ -1,0 +1,22 @@
+title: "Banners"
+description:
+  Banner are used to showcase information used for advertising purposes. The purpose of a banner is to promote the brand or product in order to generate online vistors and increase sales.
+
+patterns:
+  banner-card:
+    fields:
+      - name: heading
+        type: string
+        example: "New Year ｜ New You"
+      - name: text
+        type: string
+        example: "See the best of best of 2019"
+      - name: icon
+        type: string
+        example: "#banner-1"
+      - name: button_text
+        type: string
+        example: "View Collection"
+      - name: button_url
+        type: url
+        example: "/banner-1/"

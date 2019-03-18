@@ -1,21 +1,31 @@
-.navigation {
-  background-color: var(--color-secondary);
-}
-
 nav li {
-  color: #fff;
+  color: #000;
+  white-space: nowrap;
 }
 
 li a {
-  color: #fff;
+  color: #000;
 }
 
 a {
-  color: #fff;
+  color: #000;
 }
 
-.navigation a:hover {
-  background-color: #fff;
+.navigation {
+  align-items: center;
+}
+
+.align {
+  align-items: center;
+}
+a:hover {
   color: var(--color-secondary);
-  padding: .3em;
+}
+
+.title:hover {
+  font-family: 'Amatic SC', cursive;
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
 }

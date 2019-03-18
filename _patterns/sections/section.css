@@ -1,0 +1,72 @@
+.promotional-section {
+  background-color: #fff;
+}
+
+.banner p {
+  color: #fff;
+}
+
+.promotional-section h3 {
+  color: var(--color-secondary);
+  letter-spacing: 3px;
+}
+
+.promotional-section p {
+  color: var(--color-secondary);
+}
+
+
+em {
+  color: var(--color-secondary);
+}
+
+.company-section {
+  background:
+    url("../images/photography/company-pattern.png") center;
+}
+
+.company-section h2 {
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.company-section p {
+  color: #fff;
+}
+
+.border {
+  border: 2px solid #fff;
+}
+
+.card-1 {
+  background-color: var(--color-accent);
+}
+
+.card-1 h3 {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.card-1 p {
+  color: #fff;
+}
+
+.card-1 img {
+  transform: scale(0.7)
+}
+
+.card-2 {
+  background-color: var(--color-neutral-beige);
+}
+
+.card-2 img {
+  transform: scale(0.7)
+}
+
+.card-2 h3 {
+  color: var(--color-secondary);
+  letter-spacing: 3px;
+}
+
+.card-2 p {
+  color: var(--color-secondary);

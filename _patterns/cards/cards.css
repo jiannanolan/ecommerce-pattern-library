@@ -27,44 +27,6 @@
   vertical-align: middle;
 }
 
-.illustration-card-shop {
-  background-color: var(--color-accent);
-}
-.illustration-card-shop h3 {
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.illustration-card-shop p {
-  color: #fff;
-}
-
-.illustration-card-fab  {
-  background-color: var(--color-primary);
-}
-
-.illustration-card-fab h3 {
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.illustration-card-fab p {
-  color: #fff;
-}
-
-.illustration-card-oldies  {
-  background-color: var(--color-neutral-beige);
-}
-
-.illustration-card-oldies h3 {
-  text-transform: uppercase;
-  color: var(--color-secondary);
-}
-
-.illustration-card-oldies p {
-  color: var(--color-secondary);
-}
-
 .product-detail-content {
   background-color: #fff;
 }
@@ -106,7 +68,44 @@
   list-style: circle;
 }
 
-.card-illustration {
-  width: 50%;
-  height: 50%;
+.card-1 p {
+  color: #fff;
+}
+
+.card-1 img {
+  transform: scale(0.7)
+}
+
+.card-2 {
+  background-color: var(--color-neutral-beige);
+}
+
+.card-2 img {
+  transform: scale(0.7)
+}
+
+.card-2 h3 {
+  color: var(--color-secondary);
+  letter-spacing: 3px;
+}
+
+.card-2 p {
+  color: var(--color-secondary);
+}
+
+.card-3 {
+  background-color: #a0b2b1;
+}
+
+.card-3 img {
+  transform: scale(0.7)
+}
+
+.card-3 h3 {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.card-3 p {
+  color: #fff;
 }

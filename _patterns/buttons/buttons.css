@@ -23,3 +23,39 @@
   border: 2px solid var(--color-accent);
   padding: 10px;
 }
+
+.btn-secondary {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border: none;
+  color: var(--color-secondary);
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-secondary-red{
+  background-color: transparent;
+  border: none;
+  color: var(--color-secondary);
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-secondary-red:hover {
+  background-color: transparent;
+  border: none;
+  color: var(--color-accent);
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}

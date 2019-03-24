@@ -15,7 +15,6 @@
   color: var(--color-secondary);
 }
 
-
 em {
   color: var(--color-secondary);
 }
@@ -35,7 +34,7 @@ em {
 }
 
 .border {
-  border: 2px solid #fff;
+  border: 5px solid #fff;
 }
 
 .card-1 {
@@ -70,4 +69,21 @@ em {
 
 .card-2 p {
   color: var(--color-secondary);
+}
+
+.card-3 {
+  background-color: #a0b2b1;
+}
+
+.card-3 img {
+  transform: scale(0.7)
+}
+
+.card-3 h3 {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.card-3 p {
+  color: #fff;
 }

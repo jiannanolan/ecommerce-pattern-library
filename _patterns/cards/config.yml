@@ -22,8 +22,8 @@ patterns:
     title: "Illustration Card: Fab"
     description:
       This card is used as a call to action highlighting illustrations found in a smaller grid.
-  illustration-card-oldies:
-    title: "Illustration Card: Oldies"
+  illustration-card-gems:
+    title: "Illustration Card: Gem"
     description:
       This card is used as a call to action highlighting illustrations found in a smaller grid.
   product-detail:

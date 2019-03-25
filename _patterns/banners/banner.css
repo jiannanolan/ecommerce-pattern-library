@@ -1,17 +1,58 @@
 .banner {
   background:
-    url("../images/photography/banner-01.jpg") center;
-  min-height: 20em;
+    url("../images/photography/banner-01.png") center;
 }
 
 .banner p {
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .banner h3 {
-  color: #fff;
+  color: var(--color-primary);
+}
+
+.banner h1 {
+  color: var(--color-primary);
 }
 
 em {
   color: var(--color-secondary);
+}
+
+.lens-content {
+  background-color: var(--color-secondary);
+}
+
+.lens-content ul {
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.lens-content li {
+  color: #fff;
+}
+
+.border {
+  border: 3px solid #fff;
+}
+
+.image {
+  background-color: var(--color-secondary);
+}
+
+.image-2 {
+  background-color: #b29b7c;
+}
+
+.light-content {
+  background-color: #b29b7c;
+}
+
+.light-content ul {
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.light-content li {
+  color: #fff;
 }

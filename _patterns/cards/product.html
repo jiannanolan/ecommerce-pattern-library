@@ -1,21 +1,20 @@
-<div class="product-card island-2 content-fill">
-  <div class="product-card-content island content-fill">
-    <div class="text-right">
-      <svg class="icon i-32"><use xlink:href="/images/icons.svg#heart"/>
-      </svg>
-    </div>
+<div class="content-fill island-1-4">
+  <div>
     <div>
       <img class="img-flex" src="{{include.data.image}}" alt="" style="width:100%"></img>
     </div>
     <div class="text-center push-1-2 block">
-      <div class="gutter inline">
+      <div class="gutter-1-2 inline">
       <span class="dot-1"></span>
       </div>
+      <div class="gutter-1-2 inline">
       <span class="dot-2"></span>
+      </div>
     </div>
-    <h3 class="product-detail-title push-0">{{include.data.title}}</h3>
-    <p class="price text-left yotta push-1-2">{{include.data.price}}</p>
-    <p class="description text-left milli">{{include.data.description}}</p>
-    {% pattern buttons/basic text="Buy now" url=include.data.url %}
+    <div class="text-center">
+    <h3 class="product-detail-title milli push-0 pad-t-1-2">{{include.data.title}}</h3>
+    <p class="price yotta push-1-2 text-center">${{include.data.price}}</p>
+      {% pattern buttons/secondary-red text="Add" url=include.data.url %}
+    </div>
   </div>
 </div>

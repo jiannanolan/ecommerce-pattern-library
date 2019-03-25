@@ -1,11 +1,11 @@
 <div class="banner masthead embed embed-3by2 unit xs-1 s-1 m-1 l-1">
   <div class="pin-lc gutter-2 island">
-      <i class="banner-icon icon i-256 push-1-2"><svg><use xlink:href="/images/icons.svg#{{include.icon}}"></use></svg></i>
+      <i class="banner-icon icon i-192 push-1-2"><svg><use xlink:href="/images/icons.svg#{{include.icon}}"></use></svg></i>
     <h1 class="push-0 nina">{{include.heading}}</h1>
     <p class="banner-p push exa center">{{include.text}}</p>
     <div class="push-2">
       {% if include.button_url %}
-        {% pattern buttons/ghost url=include.button_url text=include.button_text %}
+        {% pattern buttons/basic url=include.button_url text=include.button_text %}
       {% endif %}
     </div>
   </div>

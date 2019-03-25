@@ -29,8 +29,4 @@ patterns:
   product-detail:
     title: "Product Detail Card"
     description:
-      This card is used showcase a product.
-  information-card:
-    title: "Information Card"
-    description:
-      This card is used provide further information on a product.
+      This card is used showcase a product and used to provide further information on a product.

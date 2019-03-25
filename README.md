@@ -18,6 +18,8 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
 
+Netlify: https://vigorous-goldwasser-a1cb52.netlify.com/pattern-library/#brand
+
 ## Collaborators
 
 - [@jiannanolan] (https://github.com/jiannanolan)

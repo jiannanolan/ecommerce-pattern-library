@@ -1,10 +1,6 @@
-<div class="product-detail island-2 unit xs-1 s-1">
+<div class="island-2 unit xs-1 s-1">
   <div class="product-detail-content island">
-    <div class="text-right">
-      <svg class="icon i-64"><use xlink:href="/images/icons.svg#heart"/>
-      </svg>
-    </div>
-    <img class="img-flex" src="{{page.image}}" alt="aurora-glasses" style="width:100%"></img>
+    <img class="img-flex" src="{{include.data.image}}" alt="aurora-glasses" style="width:100%"></img>
     <div class="text-center push-1-2">
       <div class="gutter inline">
       <span class="dot-1"></span>
@@ -18,7 +14,7 @@
     <div class="unit xs-1 s-1 m-1-2 l-1-2 inline">
       <p class="price-detail text-left yotta push">${{page.price}}</p>
       <div class="push">
-      {% pattern buttons/basic text="Add to Cart" url="/cart/" %}
+      {% pattern buttons/basic text="Add to Cart" url=include.data.url %}
       </div>
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">

@@ -37,3 +37,15 @@
   right: 0;
   top: 0;
  }
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  color: var(--color-secondary);
+}
+
+.payment {
+  background-color: #efefef;
+}

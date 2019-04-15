@@ -49,3 +49,12 @@ legend {
 .payment {
   background-color: #efefef;
 }
+
+.newletter {
+  background:
+    url("../images/photography/company-pattern.png") center;
+}
+
+.newletter h2 {
+  color: #fff;
+}

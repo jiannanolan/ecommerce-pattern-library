@@ -28,3 +28,16 @@ patterns:
     - name: url
       type: url
       example: "/products/"
+
+  secondary:
+    title: "White Link"
+    description:
+      The ghost button is specificially for banners where it will be placed in front of a busy image.
+    background: "--color-primary-light"
+    fields:
+    - name: text
+      type: string
+      example: "View collection"
+    - name: url
+      type: url
+      example: "/products/"

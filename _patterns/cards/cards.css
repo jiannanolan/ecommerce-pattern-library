@@ -114,3 +114,23 @@
 .payment-card {
   background-color: #e3e3e3;
 }
+
+.lens-promo {
+  background-color: #9FB2B1;
+  color: #fff;
+}
+
+.lens-promo-2 {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.lens-promo h3 {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.lens-promo-2 h3 {
+  color: #fff;
+  letter-spacing: 3px;
+}

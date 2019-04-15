@@ -87,3 +87,38 @@ em {
 .card-3 p {
   color: #fff;
 }
+
+h1 {
+  color: var(--color-secondary);
+}
+
+h2 {
+  color: var(--color-primary);
+}
+
+h3 {
+  color: var(--color-secondary);
+}
+
+h3 {
+  color: var(--color-secondary);
+}
+
+.promo {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.no-background {
+  background-color: #fff;
+}
+
+.wrapper {
+  color: var(--color-primary);
+  background-color: #fff;
+}
+
+.pattern {
+  background:
+    url("../images/photography/company-pattern.png") center;
+}

@@ -3,10 +3,6 @@
     url("../images/photography/banner-01.png") center;
 }
 
-.banner p {
-  color: var(--color-primary);
-}
-
 .banner h3 {
   color: var(--color-primary);
 }

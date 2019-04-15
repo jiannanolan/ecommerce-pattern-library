@@ -42,6 +42,25 @@
   text-transform: uppercase;
 }
 
+.btn-secondary-onwhite {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-secondary-onwhite:hover {
+  background-color: transparent;
+  border: none;
+  color: var(--color-accent);
+  font-size: 1em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
 .btn-secondary-red{
   background-color: transparent;
   border: none;

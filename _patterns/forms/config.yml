@@ -5,7 +5,7 @@ patterns:
   email-input:
     title: "Email Input"
     description:
-      This form input is used to enter an email. The input value ensures that a valid email is inputed.
+      This form input is used to enter an email. The input value ensures that a valid email is inputed. This type is used in the subscribe to newletter section on the Lens Replacement page.
   checkbox:
     title: "Checkbox"
     description:
@@ -30,3 +30,23 @@ patterns:
     title: "Text Area"
     description:
       This form is used to input larger content which it multi-line in length. This type of form is typically used for user feedback, comments and inquiry purposes.
+  perscription-form:
+    title: "Prescription Form"
+    description:
+      Section of the check out page, this contains information pertaining to a customer's perscription details.
+  vision-form:
+    title: "Vision Form"
+    description:
+      Section of the check out page, this contains radio buttons where user selects type of lens for their eyeglasses.
+  newsletter:
+    title: "Newsletter Form"
+    description:
+      Section on the Lens Replacement page, this contains a text field that allows users to insert their email in order to sign of to recieve company news, details and promotions.
+  payment-form:
+    title: "Payment Form"
+    description:
+      Section of the check out page, this contains information pertaining to a customer's payment details.
+  features-form:
+    title: "Features Form"
+    description:
+      Section of the check out page, this contains checkout buttons where user selects additional features for their eyeglasses.

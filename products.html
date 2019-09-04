@@ -6,9 +6,11 @@ highlight_nav: products
 {% pattern banners/banner-card button_text="Shop now" button_url="/products/" heading="Our 2019 Collection" text="Find the right you." icon="banner-2" %}
 
 <div class="grid island">
-  {% for product in site.products %}
-    <div class="unit [xs-1 s-1 m-1-3 ]">
-      {% pattern cards/product data=product %}
-    </div>
-  {% endfor %}
+  <main role="main" id="main" tabindex="0">
+    {% for product in site.products %}
+      <div class="unit [xs-1 s-1 m-1-3 ]">
+        {% pattern cards/product data=product %}
+      </div>
+    {% endfor %}
+  </main>
 </div>

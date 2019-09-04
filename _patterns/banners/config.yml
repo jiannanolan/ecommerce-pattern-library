@@ -4,6 +4,9 @@ description:
 
 patterns:
   banner-card:
+    title: "Main Banner"
+    description:
+      This banner is used throughout the site as the main banner. Call to actions are changed depending on which page the banner is on.
     fields:
       - name: heading
         type: string
@@ -20,3 +23,11 @@ patterns:
       - name: button_url
         type: url
         example: "/banner-1/"
+  banner-light:
+    title: "Light Responsive Banner"
+    description:
+      Informative banner to highlight the benefits of dual lens, this is found on the checkout page of the site.
+  banner-lens:
+    title: "High Quality Lens Banner"
+    description:
+      Informative banner to highlight the high quality lens, this is found on the homepage of the site.

@@ -13,6 +13,8 @@ patternbot:
   layouts:
     default:
       The default layout should be used for almost every page, it includes the website's primary header and footer.
+    product:
+      This layout is to be used on the products known as the eye glasses page on the site.
 
   rationales:
     typefaces.primary:

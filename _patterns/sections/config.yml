@@ -3,66 +3,28 @@ description:
   Banner are used to showcase information used for advertising purposes. The purpose of a banner is to promote the brand or product in order to generate online vistors and increase sales.
 
 patterns:
-  plain-bullet:
+  company-section:
+    description:
+      White text on patterned red background, this section is used to state company mission featured on the homepage.
     fields:
       - name: heading
         type: string
-        example: "Information Collection and Use"
+        example: "Who are we"
       - name: text
         type: string
-        example: "We collect several different types of information for various purposes to provide and improve our Service to you."
-  basic-information:
-    fields:
-      - name: heading
-        type: string
-        example: "Information Collection and Use"
-      - name: text-1
-        type: string
-        example: "Text String 1."
-      - name: text-2
-        type: string
-        example: "Text String 2."
-      - name: text-3
-        type: string
-        example: "Text String 3."
-      - name: text-4
-        type: string
-        example: "Text String 4."
-  secondary-information:
-    fields:
-      - name: heading
-        type: string
-        example: "Definitions"
-      - name: heading-1
-        type: string
-        example: "Subheader-1"
-      - name: text-1
-        type: string
-        example: "Text String 1."
-      - name: heading-2
-        type: string
-        example: "Subheader-2"
-      - name: text-2
-        type: string
-        example: "Text String 2."
-      - name: heading-3
-        type: string
-        example: "Subheader-3"
-      - name: text-3
-        type: string
-        example: "Text String 3."
-      - name: heading-4
-        type: string
-        example: "Subheader-4"
-      - name: text-4
-        type: string
-        example: "Text String 4."
-
-  company-section:
-      fields:
-        - name: heading
-          type: string
-          example: "Who are we"
-        - name: text
-          type: string
-          example: "A new company to the eyewear scene, here at Trend-E, we believe everyone should have access to high-quality, affordable eyewear. We want our eyeglass wearing friends to feel beautiful and to find the perfect pair of frames that complement their own unique personality. Our company offers free shipping and reliable service everytime helping to transform the hassle of buying eyewear into a fun and stress-free experience."
+        example: "A new company to the eyewear scene, here at Trend-E, we believe everyone should have access to high-quality, affordable eyewear. We want our eyeglass wearing friends to feel beautiful and to find the perfect pair of frames that complement their own unique personality. Our company offers free shipping and reliable service everytime helping to transform the hassle of buying eyewear into a fun and stress-free experience."
+  promotion-section:
+    description:
+      This section is used to show company promises of good services though simple iconography, this is used on the homepage.
+  table:
+    description:
+      This table is used display the benefits of selecting various eyeglass materials. This informative section is used on the Lens Replacement page.
+  bulk-promo:
+    description:
+      This section is used a banner to advertise a general sale featured on top of the Lens Replacement page.
+  product-section:
+    description:
+      A section featuring two promotional cards, one card is used to promote a 30% off sale for all lenses. The other card is used to promote free lens care. Both cards are used on the Lens Replacement page.
+  collage-section:
+    description:
+      Used as a wow component and eye catching element, this section features several call to actions and photos of brand ambassadors. This content is displayed in a organized grid and brings style, personality and a fun voice to the brand.

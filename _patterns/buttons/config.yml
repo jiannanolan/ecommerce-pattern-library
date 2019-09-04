@@ -30,10 +30,36 @@ patterns:
       example: "/products/"
 
   secondary:
-    title: "White Link"
+    title: "White Link: Hover Secondary"
     description:
-      The ghost button is specificially for banners where it will be placed in front of a busy image.
+      Plain button with no border. White in colour, hover state is brand red colour.
     background: "--color-primary-light"
+    fields:
+    - name: text
+      type: string
+      example: "View collection"
+    - name: url
+      type: url
+      example: "/products/"
+
+  secondary-onwhite:
+    title: "White Link: Hover Accent"
+    description:
+      Plain button with no border. White in colour, hover state is brand accent gold colour.
+    background: "--color-primary-light"
+    fields:
+    - name: text
+      type: string
+      example: "View collection"
+    - name: url
+      type: url
+      example: "/products/"
+
+  secondary-red:
+    title: "Red Link: Hover Accent"
+    description:
+      Plain button with no border. Red in colour, hover state is brand accent gold colour.
+    background: "#fff"
     fields:
     - name: text
       type: string
